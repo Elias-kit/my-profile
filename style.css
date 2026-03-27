@@ -1,0 +1,147 @@
+body {
+  background: linear-gradient(180deg, #f6f7fb 0%, #eef1f7 100%);
+  color: #5b6078;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  padding: 40px 0;
+}
+
+h1,
+h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+}
+
+h1 {
+  color: #5c5f82;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  color: #6f73d9;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+p {
+  line-height: 1.8;
+  margin: 0;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #4f56c8;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: #ffffff;
+  padding: 42px 38px;
+  margin: 24px 0;
+  box-shadow: 0 14px 35px rgba(99, 110, 140, 0.10);
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid rgba(230, 233, 242, 0.8);
+}
+
+.intro-card {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-circle {
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 12px 0 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.intro-text {
+  max-width: 520px;
+  margin: 0 auto 28px;
+  font-size: 18px;
+}
+
+.btn-blue {
+  background: linear-gradient(135deg, #7b82f1 0%, #6269df 100%);
+  color: white;
+  padding: 14px 24px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+  box-shadow: 0 8px 18px rgba(107, 114, 225, 0.25);
+}
+
+.btn-blue:hover {
+  background: linear-gradient(135deg, #6a71e6 0%, #555dcf 100%);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin: 18px 0 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 8px 14px;
+}
+
+.list-inline a {
+  background-color: #f5f6fc;
+  padding: 10px 16px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.list-inline a:hover {
+  background-color: #eceefe;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 90%;
+  }
+
+  .card-white {
+    padding: 30px 22px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  .intro-text {
+    font-size: 16px;
+  }
+
+  .list-inline li {
+    display: block;
+    margin: 10px 0;
+  }
+}
